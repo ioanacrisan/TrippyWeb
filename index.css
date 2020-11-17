@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital,wght@0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2.5px;
+}
+
+
+h2{
+    font-family: Anton;
+    margin: 35px 50px 50px;
+    border-style: dotted;
+    background-color: rebeccapurple;
+}
+
+h3{
+    font-family: Anton;
+    margin: 35px 50px 50px;
+    border-style: dotted;
+    color:rebeccapurple;
+}
+
+ul {
+    display: flex; /*horizontal*/
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;/*centering */
+  list-style: none; /*no bullet*/
+}
+
+li{
+	margin-right: 10px;/*space between list elem*/
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}

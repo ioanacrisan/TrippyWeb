@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Balsamiq+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    letter-spacing: 2.5px;
+}
+
+html{
+    background-color: rosybrown;
+}
+
+h1 
+{
+    text-align: center;
+    background-image: linear-gradient(to left  red,chocolate, coral,orange,yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2{
+    font-family: Anton;
+    margin: 35px 50px 50px;
+    border-style: dotted;
+}
+
+h3{
+    font-family: Anton;
+    margin: 35px 50px 50px;
+    border-style: dotted;
+}
+
+p{
+    font-family: "Calibri";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 50px 50px;
+}
+
+input[type=submit]
+{ 
+    background-color: darksalmon;
+    border: 0;
+}
+
+body {
+    style="background-color:rosybrown";
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+table{
+    margin:1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+li{
+    color:darkslateblue;
+}
+
+#h3{
+    border: dashed;
+}
+
+#no{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    max-width: 1400px;
+    margin: 10px;
+}
+
+#logo img {
+    height: 60px;
+    margin: 10px;
+}
+
+ul {
+    display: flex; /*horizontal*/
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;/*centering */
+    list-style: none; /*no bullets*/
+}
+
+li{
+    margin-right: 10px;/*space between list elem*/
+    transition: background-position-x 0.9s linear;
+    text-align: center;
+}
+
+a { 
+    font-family: "Anton";
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background-color: transparent;/*animation*/
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+
+
+a:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+a:visited{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.visited {
+    color: blue;
+}
+
+.visited:hover{
+    color: #fff !important;
+}
+
+footer {
+    width: 100%;
+}

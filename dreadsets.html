@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Trippy Dreads Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container-fluid " style="width: 100%;"></div>
+    <h1 class="display-3 text-success">Trippy Dreads</h1>
+        <ul class="nav  justify-content-around bg-transparent nav-tabs d-flex align-items-center active ">
+            <div id="logo"><img src="Images/logo.png" ></div>
+            <li class="nav-item "><a class="nav-link text-warning" href="index.html">Home</a></li>
+            <li><a class="nav-link text-warning" href="products.html"><i class="fas fa-heart"></i>Products</a></li>
+            <li><a class="nav-link text-warning" href="dreadsets.html"><i class="fas fa-heart"></i>Dreadsets</a></li>
+            <li><a class="nav-link text-warning" href="accessories.html"><i class="fas fa-heart"></i>Accessories</a></li>
+            <li><a class="nav-link text-warning" href="hair.html"><i class="fas fa-heart"></i>Hair</a></li>
+            <li><a class="nav-link text-warning" href="addproduct.html"><i class="fas fa-heart"></i>Add Product</a></li>
+        </ul>
+</div>
+
+    <hr>
+    
+        <div class="container-fluid w-100 p-3" >
+            <h2 class="display-4 text-danger">Dreadsets</h2>
+        </div>
+
+       <p class="text-center" id="sentence">  <script src="javascript.js" type="text/javascript"></script>
+        <script>time();</script> </p>
+<div class="container">
+    <!--
+    <table class="table-active w-100 p-3">
+    <tr class="bg-danger">
+        <th>Product</th>
+        <th>Size</th>
+        <th>Price</th>
+        <th>No. Of Products Left</th>
+        <th></th>
+        <th>ID Product</th>
+        <th>ID Supplier</th>
+        <th>Add to basket</th>
+    </tr>
+
+    <tr class="table-success">
+        <td>HAZELNUT DREAM</td>
+        <td>70-75CM/27-29"</td>
+        <td><del>263.99$</del><br> 240$</td>
+        <td id="no">10</td>
+            <td><a href=""><img
+                        src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/e/m/emilieshoot-hazelnutdream-700x700_0000s_0001__mg_7231.jpg"
+                        width="100px" height="100px" /> </a>
+        <td>#42</td>
+        <td>#51</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-warning">
+        <td>CARAMEL TWIST</td>
+        <td>70-75CM/27-29"</td>
+            <td><del>263.99$</del><br> 240$</td>
+            <td id="no">5</td>
+            <td> <img
+                    src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/0/4/04.rlol_em_caramel_twist_700x700_0008_layer_6.jpg"
+                    width="100px" height="100px" /> </td>
+        <td>#43</td>
+        <td>#52</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-danger">
+        <td class="col1">VIVID BLONDE</td>
+            <td>70-75CM/27-29"</td>
+            <td><del>240$</del><br> 220$</td>
+            <td id="no">30</td>
+            <td> <img
+                    src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/r/_/r_site02_700x700_4.jpg"
+                    width="100px" height="100px" /> </td>
+            <td>#44</td>
+            <td>#53</td>
+            <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-success">
+        <td class="col1">SAND STORM</td>
+        <td>50-55CM/20-22"</td>
+        <td><del>271.99$</del><br> 250$</td>
+        <td id="no">out of stock</td>
+        <td> <img
+                src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/e/m/emi-19-05-14-00084_500x500.jpg"
+                width="100px" height="100px" /> </td>
+        <td>#45</td>
+        <td>#54</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-warning">
+        <td class="col1">VIVID CARAMEL</td>
+        <td>50-55CM/20-22"</td>
+        <td><del>103.99$</del><br> 80$</td>
+        <td id="no">50</td>
+        <td> <img
+                src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/i/m/image00011_500x500_4.jpg"
+                width="100px" height="100px" /> </td>
+        <td>#46</td>
+        <td>#54</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-danger">
+        <td> ASH BLONDE</td>
+        <td>70-75CM/27-29"</td>
+        <td><del>283.99$</del><br> 240$</td>
+        <td id="no">30</td>
+        <td> <img
+                src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/a/s/ash_blonde_70_03.jpg"
+                width="100px" height="100px" /> </td>
+        <td>#47</td>
+        <td>#55</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-success">
+        <td class="col1">GREY BLOOD </td>
+        <td>33CM/13"</td>
+        <td>61.99$</td>
+        <td id="no">50</td>
+        <td> <img
+                src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/n/a/naamloos-20-04-30-15673.jpg"
+                width="100px" height="100px" /> </td>
+        <td>#48</td>
+        <td>#56</td>
+        <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+
+    <tr class="table-warning">
+        <td class="col1"> MUSTARD</td>
+            <td>33CM/13"</td>
+            <td>61.99$</td>
+            <td id="no">100</td>
+            <td> <img
+                    src="https://www.dreadshop.com/media/catalog/product/cache/e6f437a7168d3ce09df0721a95ce7182/n/a/naamloos-20-04-30-15678_1.jpg"
+                    width="100px" height="100px" /> </td>
+            <td>#49</td>
+            <td>#57</td>
+            <td><button class="alert alert-warning alert-dismissible fade show text-center" onclick="add('t-shirt', 15, 1, 0)">Add to basket</button></td>
+    </tr>
+</table>-->
+</div>
+
+
+<table class="demo">
+    <script>
+        function loadXMLDoc() 
+        {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() 
+            {
+                if (this.readyState == 4 && this.status == 200) 
+                {
+                  myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "C:\Users\lenovo\Desktop\TrippyWeb/data.xml", true);
+            xmlhttp.send();
+        }
+        function myFunction(xml) 
+        {
+            var i;
+            var xmlDoc = xml.responseXML;
+            var table="<tr><th>Product</th><th>Size</th><th>Price</th><th>Amount</th><th>ID Product</th><th>ID Supplier</th><th>Discount</th></tr>";
+            var x = xmlDoc.getElementsByTagName("itemsList");
+            for (i = 0; i < x.length; i++) 
+{ 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("product")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("size")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("amount")[0].childNodes[0].nodeValue +
+    "</td><td>"+
+    x[i].getElementsByTagName("idproduct")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+    x[i].getElementsByTagName("idsupplier")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+    x[i].getElementsByTagName("discount")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+}
+            document.getElementById("demo").innerHTML = table;
+        }
+    </script>   
+</table>
+
+<hr>
+
+<footer>
+    <div class="card-footer text-light bg-success ">
+        <span class="text-light h6">Contact:</span> <a class="text-light h6"
+            href="mailto:crisanioana@protonmail.com">crisanioana@protonmail.com</a>
+        <small class="float-right">Follow us <a href="https://www.instagram.com/trippy.dreads/"
+                target="_blank"><img
+                    src="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-logo-png-transparent.png"
+                    style="height: 20px;"></a></small>
+        <div class="footer-copyright text-center" ><small class="copyright"><span>© 2020 Trippy Dreads</span>
+                    </small></div>
+    </div>
+</footer>
+
+<div class="row alert-bs fixed-bottom">
+    <div class="col-md-4">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>By using this site you consent to storing cookies</strong>
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</html>

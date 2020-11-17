@@ -1,0 +1,8 @@
+ACCESSORIES
+Product		Price     ID
+HAIRWRAP 	20$        #31
+STORAGE BOX 	15$        #32
+PIMP KIT 		20$        #33
+STURDY ELASTICS 1.99$     #34	
+ROLL UP ELASTIC 	3.99$     #35
+SET BOHEMIAN 	9.99$     #36

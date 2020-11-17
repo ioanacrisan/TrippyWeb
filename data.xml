@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemsList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+				xsi:noNamespaceSchemaLocation="ItemsSchema.xsd">
+	<item id="1" src="">
+		<product>HAZELNUT DREAM</product>
+		<size>70-75CM/27-29"</size>
+		<price>240$</price>
+		<amount>10</amount>
+        <idproduct> #42 <idproduct>
+		<idsupplier> #51 </idsupplier>
+        <discount> 0 <discount>
+	</item>
+	<item id="2" src="">
+		<product>CARAMEL TWIST</product>
+		<size>70-75CM/27-29"</size>
+		<price>240$</price>
+		<amount>5</amount>
+        <idproduct> #43 <idproduct>
+		<idsupplier> #52 </idsupplier>
+        <discount> 10 <discount>
+	</item>
+	<item id="3" src="">
+		<product>SAND STORM</product>
+		<size>50-55CM/20-22"</size>
+		<price>250$</price>
+		<amount>10</amount>
+        <idproduct> #45 <idproduct>
+		<idsupplier> #54 </idsupplier>
+        <discount> 0 <discount>
+    
+    <item id="4" src="">
+		<product>VIVID CARAMEL</product>
+		<size>50-55CM/20-22"</size>
+		<price>250$</price>
+		<amount>10</amount>
+        <idproduct> #45 <idproduct>
+		<idsupplier> #54 </idsupplier>
+        <discount> 0 <discount>
+
+    <item id="5" src="">
+		<product>SAND STORM</product>
+		<size>50-55CM/20-22"</size>
+		<price>250$</price>
+		<amount>10</amount>
+        <idproduct> #45 <idproduct>
+		<idsupplier> #54 </idsupplier>
+        <discount> 0 <discount>
+
+    <item id="6" src="">
+		<product>ASH BLONDE</product>
+		<size>70-75CM/27-29"</size>
+		<price>240$</price>
+		<amount>30</amount>
+        <idproduct> #46 <idproduct>
+		<idsupplier> #55 </idsupplier>
+        <discount> 10 <discount>
+
+    <item id="7" src="">
+		<product>GREY BLOOD</product>
+		<size>33CM/13"</size>
+		<price>61.99$</price>
+		<amount>50</amount>
+        <idproduct> #47 <idproduct>
+		<idsupplier> #56 </idsupplier>
+        <discount> 10 <discount>
+
+    <item id="8" src="">
+		<product>MUSTARD</product>
+		<size>33CM/13"</size>
+		<price>61.99$</price>
+		<amount>100</amount>
+        <idproduct> #48 <idproduct>
+		<idsupplier> #57 </idsupplier>
+        <discount> 0 <discount>
+</itemsList>
+
